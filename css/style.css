@@ -1,0 +1,188 @@
+.nav-link{
+	text-transform: uppercase;             
+}
+.nav-item{
+	padding-left: 1em;
+}                                        
+.navbar{
+	background-color:#000;
+}
+
+.carousel-item{
+	height:671px;
+	padding-top: 110px;
+}
+.carousel-img-1{
+	background:url('../img/slider/dddd.jpg');
+	background-size:cover;
+}
+.carousel-img-2{
+	background:url('../img/slider/slider (2).jpg');
+	background-size:cover;
+}
+.carousel-img-3{
+	background:url('../img/slider/slider (4).jpg');
+	background-size:cover;
+}
+
+
+
+#getstarted{
+	background-image: url('../img/slider/aaaa.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	min-height: 250px;
+}
+#getstarted .dark{
+	background:rgba(0,0,0,0.8);
+	position:absolute;
+	width:100%;
+	height:250px;
+}
+
+#mypic{
+	width:522px;
+	height:379px;
+	border:2px solid blue;
+}
+
+#home-video{
+	background-image: url(../img/slider/sssss.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+	
+}
+#home-video .dark-overlay{
+		background:rgba(0,0,0,0.7);
+	}
+
+
+
+#home-video .dark-overlay .fab{
+	color:#FFC107;
+	font-size: 50px;
+}
+#gallery img{
+
+		max-height:500px;
+
+}
+
+#copyright{
+	background-color: #000;
+}
+
+
+#tastimonial .slick-prev:before{
+	color:red;
+}
+#tastimonial .slick-next:before{
+	color:red;
+}
+
+#services-header{
+	height: 400px;
+	background-image: url('../img/slider/services.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+
+.fab:hover{
+	color:#FFC107;
+	font-size: 30px;
+}
+
+#page-header{
+	height: 400px;
+	background-image: url('../img/slider/mouse.jpg');
+	background-size:292vh;
+	background-attachment: fixed;
+}
+
+#aboutus img{
+	width:350px;
+	height: 300px;
+}
+
+#blog-header{
+	height: 400px;
+	background-image: url('../img/slider/slider (4).jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+#contact-header{
+	height: 400px;
+	background-image: url('../img/slider/sssss.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.icone{
+    position: absolute;
+    height: 25px;
+    width: 24px;
+    margin-left:358px;
+    
+}
+
+#input{
+	width:90%;
+	height:50px;
+	background:none repeat scroll 0% 0% #F5FBFF;
+	padding-left: 20px;
+	right:50px;
+	font-size: 15px;
+	color:#000;
+	border:1px solid #E8E8E8;
+	border-radius: 30px;
+}
+
+
+
+#subbtn{
+	color: #FFF;
+	padding: 0px 22px;
+	cursor: pointer;
+	border-radius: 30px;
+	top: 5px;
+	right: 39px;
+	font-size: 16px;
+	font-weight: 600;
+	position: absolute;
+	height: 40px;
+	border: medium none;
+	background: none repeat scroll 0% 0% #F0542C;
+	margin-left: 20px;
+}
+
+
+
+@media(max-width:782px){
+	.media{
+		margin-top:15px;
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+}
+
+@media(max-width:767px){
+	.nav-item{
+		padding-left: 0 !important;
+	}
+	
+}
+@media(max-width: 693px){
+	.medial{
+		font-size: 20px;
+	}
+}
+
+
+
